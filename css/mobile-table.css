@@ -1,0 +1,15 @@
+/* mobile-table.css */
+@media (max-width: 576px) {
+    th, td {
+      padding: 0.5rem !important;
+      font-size: 0.95rem !important;
+      word-break: break-word;
+    }
+    .container {
+      padding-left: 0.4rem !important;
+      padding-right: 0.4rem !important;
+    }
+    h1 {
+      font-size: 1.3rem !important;
+    }
+  }
