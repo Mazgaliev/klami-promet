@@ -101,7 +101,7 @@ function updateDisplay() {
 
 async function init() {
   try {
-    const resp = await fetch('../products.json');
+    const resp = await fetch('products.json');
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const data = await resp.json();
     products.push(...data);
