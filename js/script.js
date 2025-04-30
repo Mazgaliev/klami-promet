@@ -23,7 +23,7 @@
         <td>${p.barcode}</td>
         <td>${p.name}</td>
         <td>MKD ${Math.round(p.price*10)/10}</td>
-        <td>MKD ${p.ed_mera}</td>
+        <td>${p.ed_mera}</td>
       `;
       tableBody.appendChild(row);
     });
